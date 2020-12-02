@@ -1,0 +1,41 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#container {
+	height: 100vh;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.img_frame {
+	position: relative;
+	border: 1px solid blue;
+	padding: 15px;
+}
+
+.img_banner {
+	text-align: center;
+	padding: 15px 0;
+	margin: 0;
+	background-color: blueviolet;
+	position: absolute;
+	bottom: 138px;
+	left: 0;
+	width: 100%;
+}
+
+.snazzy_font {
+	font-size: 30px;
+	color: white;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.centered-content {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
